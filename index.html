@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>مدیریت Webhook تریدینگ‌ویو</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main>
+    <h1>مدیریت Webhookهای تریدینگ‌ویو</h1>
+    <form id="webhookForm">
+      <label for="name">نام سیگنال:</label>
+      <input type="text" id="name" required>
+
+      <label for="url">آدرس Webhook:</label>
+      <input type="url" id="url" required>
+
+      <button type="submit">ذخیره Webhook</button>
+    </form>
+    <section id="webhookList"></section>
+  </main>
+  <nav>
+    <button onclick="alert('صفحه خانه')">🏠 خانه</button>
+    <button onclick="alert('سیگنال‌ها')">📈 سیگنال‌ها</button>
+    <button onclick="alert('تنظیمات')">⚙️ تنظیمات</button>
+  </nav>
+  <script src="script.js"></script>
+</body>
+</html>
